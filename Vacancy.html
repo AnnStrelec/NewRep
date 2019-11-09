@@ -1,72 +1,88 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <link rel="stylesheet" href="Vacancy.css">   
     <title>Vacancy</title>
 
    </head>
 <body>
-<H1> Вакансия: Junior Frontend Developer </h1>
-    <div>
+    <div id="bd">
+  <div id="hf"> <h1> Вакансия <span id="hf1"> Junior Frontend Developer </span> </h1>  </div> 
+  <div id="container">
+    
+ <div id="inf">  <div class="box">          
+  <img src="9.jpg" alt="медвед" id="pict">  <div class="box">
+  
+    
+      <p id="txt"> <a href="https://github.com/AnnStrelec/NewRep"> Мое резюме в сети</a> </p> </div>
+    <div class="box">  <p> Опыта работы нет</p> </div>
+ </p> <div class="box">
+   <p>
+
+
+    Дата собеседования: <input type="date"></p>
+  
+   </div>
+ <div class="box"> <p>  Желаемая з/п: <input type=number placeholder="введите значение"></p>
+
+ </div>
    
-  <img src="1.jpg" alt="медвед" height="100px"> 
-  <div  style=display:inline-block;vertical-align:top>   
-Анна Стрелец
-<p>
-      <a href="https://github.com/AnnStrelec/NewRep"> Мое резюме в сети</a>
-    </p>
-      <p> Опыта работы нет
-        </p>
-     </div>  
-<p>  Дата собеседования: <input type="date"> </p>
+
+</div>
+
+</div>
+  <div id="block"> 
+  <p class="nam">   Анна  <br> Стрелец  </p>
+
+     
+  
+   
+
+     <p class="nam">  
+    Ключевые навыки </p> <p>
+      <ul >
+          <li> HTML</li>
+          <li> JavaScript</li>
+          <li> CSS-LESS</li>
+          <li> Любовь к пиву</li>
+          <li> GIT</li>
+       </ul>
+      <input type=text placeholder="введите навык" class="in1"> <input type=button value="Добавить в список" id="butt">   </p>
+    <p class="nam"> Коммуникабельность: </p> <p>
+              <select size="1" class="in1">
+              <option > Бука</option> 
+              <option> Только когда выпью</option>
+              <option> Говорю по делу</option>
+              <option> Болтаю постоянно</option>
+              <option> Тамада</option></select> </p> 
+   
+  <p class="nam"> Уровень английского: </p> <p>
+   
+
+<input type="radio"  id="rad1" class="in1"> <label for="rad1"> Жестами </label> <br>
+   
+<input type="radio"  id="rad2" checked class="in1"> <label for="rad2">Со словарем </label> <br>
+   
+<input type="radio"id="rad3" class="in1"> <label for="rad3" > Средний </label> <br>
+   
+<input type="radio"id="rad4" class="in1"> <label for="rad4" >  Хороший </label> <br>
+   
+<input type="radio"id="rad5" class="in1"> <label for="rad5" > Разговорный </label>  </p>
+
+  
+     
  
-    <p>
-    Уровень английского:
-   <p>
-   <input type="radio"> Жестами 
-   
-   <input type="radio"> Со словарем 
-   
-   <input type="radio"> Средний
-   
-   <input type="radio"> Хороший 
-   
-   <input type="radio"> Разговорный
-   <p>
-   Ключевые навыки
-   <ul>
-       <li> HTML</li>
-       <li> JavaScript</li>
-       <li> CSS-LESS</li>
-       <li> Любовь к пиву</li>
-       <li> GIT</li>
-   <input type=text placeholder="введите навык"> <input type=button value="Добавить в список">   </ul>
-   <p> 
-       Коммуникабельность: 
-       <select size="1">
-           <option> Бука</option> 
-           <option> Только когда выпью</option>
-           <option> Говорю по делу</option>
-           <option> Болтаю постоянно</option>
-           <option> Тамада</option></select>
-   </p>
-   <p>
-       Желаемая з/п: <input type=text placeholder="введите значение">
-   </p>
-   <p>
-       Подходит по критериям: 
-       <br>
-       <input type="checkbox"> Знание английского
-       <input type="checkbox"> Зарплата
-       <input type="checkbox"> Все умеет
-       <input type="checkbox"> Схватывает на лету
+    <p class="nam">   Подходит по критериям: </p> <p>
        
-   </p>
-   <p>
-       Образование кандидата:
+       <input type="checkbox" id="ck1" class="in1"> <label for="ck1" >Знание английского </label> <br>
+       <input type="checkbox" id="ck2" class="in1"> <label for="ck2" > Зарплата </label> <br>
+       <input type="checkbox" id="ck3" class="in1"> <label for="ck3" > Все умеет </label> <br>
+       <input type="checkbox" id="ck4"  class="in1"> <label for="ck4"> Схватывает на лету </label> </p>
+       
+   
+       <p class="nam">Образование кандидата: </p> <p>
        <table>
            <tr>
                <th> #</th>
@@ -93,15 +109,15 @@
                         <td> 4</td>
                         <td> 2017-2019</td>
                         <td>Цирковое училище им. Никулина</td>
-                     </tr>
+                     </tr> </p>
        </table>
-   </p>
-</p>
-   
-
-</p>
-</p>
+      </div>
+  </div>
 </div>
+</div>
+</div>
+
+
          
        
 
